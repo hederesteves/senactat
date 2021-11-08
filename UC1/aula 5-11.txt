@@ -1,0 +1,10 @@
+lista de comandos
+
+sudo
+tab - auto complemento do que for executado
+
+apt = aplicativos  - apt update -  atualiza lista de software
+
+crlt + L = clear
+
+history - mostra historia do que já foi executado

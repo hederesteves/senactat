@@ -1,0 +1,32 @@
+aula 19.11
+
+criar imagem no Acronis
+
+Primeira etapa.:	Criar hd de 90gb
+Segunda etapa..:  Tirar um snapshot
+Terceira etapa..:	Executar o acronis em Português BR
+Quarta etapa.:	  Ferramentas e utilitários
+				          clonar discos >>> Automático >>> Prosseguir >>> encerrar o computador
+Quinta etapa...:  Inverter a ordem de disco no VirtualBox
+Sexta etapa...:   inicar o Windows
+                  
+*******************************************************************************************************
+
+criar imagem no MacriumReflect
+
+Primeira etapa.:  Iniciar o MacriumReflect
+Segunda etapa..:  Create Backups
+                  Clone this is disk >>> seleciona o disco de origem >>>> seleciona o disco de destino >>>> Finish >>> encerrar o computador
+Terceira etapa.:  Inverter a ordem de disco no VirtualBox
+Quarta etapa...:  Iniciar o Windows
+                  
+********************************************************************************************************
+
+Primeira etapa.:   Iniciar o Aoemi
+Segunda etapa..:   Clicar em Clone >>>  Partition Clone >>> Selecionar disco de origem >>> Next >>> 
+                   Selecona disco de destino >>> Next >>> Start Clone
+Terceira etapa.:   Inverter a ordem de disco no VirtualBox
+Quarta etapa...:   Iniciar o Windows
+
+
+                  

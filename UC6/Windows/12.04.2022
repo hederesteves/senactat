@@ -18,7 +18,7 @@ RH
 Vendas
 ******************************************************************************************
 Abra o AD
-Crie os grupos abaixo na OU: braga.intra/BRAGA/GROUPS
+Crie os grupos abaixo na OU: heder.intra/HEDER/GROUPS
 G-VILA-ADMINISTRATIVO
 G-VILA-ATENDENTES
 G-VILA-COMPRAS
@@ -96,41 +96,41 @@ Grupo: Usuários do domínio
 Permissão: Modificar
 ******************************************************************************************
 Criando os scripts de logon
-Local para salvar: C:\Windows\SYSVOL\sysvol\braga.intra\scripts
+Local para salvar: C:\Windows\SYSVOL\sysvol\heder.intra\scripts
 
 administrativo.bat
-net use O: \\SRVFAGNER\Administrativo
-net use P: \\SRVFAGNER\Financeiro2
-net use Q: \\SRVFAGNER\Pedidos
-net use R: \\SRVFAGNER\RH2
-net use S: \\SRVFAGNER\PublicaVila
+net use O: \\SRVHEDER\Administrativo
+net use P: \\SRVHEDER\Financeiro2
+net use Q: \\SRVHEDER\Pedidos
+net use R: \\SRVHEDER\RH2
+net use S: \\SRVHEDER\PublicaVila
 
 atendentes.bat
-net use O: \\SRVFAGNER\Atendentes
-net use P: \\SRVFAGNER\Estoque
-net use Q: \\SRVFAGNER\PublicaVila
+net use O: \\SRVHEDER\Atendentes
+net use P: \\SRVHEDER\Estoque
+net use Q: \\SRVHEDER\PublicaVila
 
 compras.bat
-net use O: \\SRVFAGNER\Compras
-net use P: \\SRVFAGNER\Estoque
-net use Q: \\SRVFAGNER\Pedidos
-net use R: \\SRVFAGNER\PublicaVila
+net use O: \\SRVHEDER\Compras
+net use P: \\SRVHEDER\Estoque
+net use Q: \\SRVHEDER\Pedidos
+net use R: \\SRVHEDER\PublicaVila
 
 gerentes.bat
-net use O: \\SRVFAGNER\Gerentes
-net use P: \\SRVFAGNER\Estoque
-net use Q: \\SRVFAGNER\Promocao
-net use R: \\SRVFAGNER\Financeiro2
-net use S: \\SRVFAGNER\Pedidos
-net use T: \\SRVFAGNER\RH
-net use U: \\SRVFAGNER\PublicaVila
+net use O: \\SRVHEDER\Gerentes
+net use P: \\SRVHEDER\Estoque
+net use Q: \\SRVHEDER\Promocao
+net use R: \\SRVHEDER\Financeiro2
+net use S: \\SRVHEDER\Pedidos
+net use T: \\SRVHEDER\RH
+net use U: \\SRVHEDER\PublicaVila
 
 vendas.bat
-net use O: \\SRVFAGNER\Vendas2
-net use P: \\SRVFAGNER\Estoque
-net use Q: \\SRVFAGNER\Promocao
-net use R: \\SRVFAGNER\Pedidos
-net use S: \\SRVFAGNER\PublicaVila
+net use O: \\SRVHEDER\Vendas2
+net use P: \\SRVHEDER\Estoque
+net use Q: \\SRVHEDER\Promocao
+net use R: \\SRVHEDER\Pedidos
+net use S: \\SRVHEDER\PublicaVila
 ******************************************************************************************
 No AD, associar os devidos scripts aos devidos usuários
 ******************************************************************************************
@@ -156,7 +156,7 @@ Clique com o botão direito e selecione Propriedades
 Clique na aba perfil
 Clique em Pasta Base
 Selecione Conectar, escolha a unidade Z:
-Digite \\srvfagner\home$\%username%
+Digite \\srvhedner\home$\%username%
 Clique em OK
 ******************************************************************************************
 Habilitar Enumeração
